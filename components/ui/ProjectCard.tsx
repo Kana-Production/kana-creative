@@ -5,9 +5,9 @@ export default function ProjectCard({ project }: any) {
       target="_blank"
       rel="noopener noreferrer"
       className="group relative flex flex-col p-3
-                 bg-white/[0.02] backdrop-blur-md 
-                 border border-white/10 rounded-[2.5rem] 
-                 transition-all duration-500 hover:bg-white/[0.05] hover:border-white/20"
+                 bg-white/10 
+                 border border-gray-500/10 rounded-[2.5rem] 
+                 transition-all duration-500 hover:bg-emerald-200/10 hover:backdrop-blur-xs hover:border-emerald-600/20"
     >
       <div className="relative w-full h-64 overflow-hidden rounded-[2rem]">
         <img
@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: any) {
       <div className="p-5 flex flex-col justify-between flex-grow">
         <div>
           <div className="flex justify-between items-start mb-2">
-            <h3 className="text-xl font-semibold text-white/90 tracking-tight">
+            <h3 className="text-xl font-semibold text-gray-800/30 tracking-tight">
               {project.title}
             </h3>
             <span className="text-[10px] text-neutral-500 border border-neutral-800 px-2 py-0.5 rounded-full uppercase tracking-tighter">

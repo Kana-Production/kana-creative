@@ -2,8 +2,8 @@ export const projects = [
   {
     title: "Laundry App UI",
     category: "UI/UX",
-    image: "/images/projects/laundry.png",
-    link: "https://example.com"
+    image: "/projects/digilondree.png",
+    link: "https://digilondree.com"
   },
   {
     title: "Cafe Website",
