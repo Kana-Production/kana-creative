@@ -20,16 +20,14 @@ export default function Hero() {
         />
       </div>
 
-      {/* Image Center */}
       <img
         src="/heroimg.png"
         alt="Hero Image"
         className="absolute h-[80vh] object-contain z-10 translate-y-16"
       />
 
-      {/* Text Left & Right */}
       <div className="relative z-20 grid grid-cols-1 md:grid-cols-2 w-full items-center -translate-y-10">
-        {/* Left */}
+       
         <div className="text-neutral-400 max-w-xl">
           <ScrambledText
             className="scrambled-text-demo text-sm px-20"
@@ -45,7 +43,6 @@ export default function Hero() {
           </ScrambledText>
         </div>
 
-        {/* Right */}
         <div className="text-neutral-400 max-w-xl ml-auto text-right">
           <ScrambledText
             className="scrambled-text-demo text-sm px-20"
