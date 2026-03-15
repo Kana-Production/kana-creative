@@ -32,7 +32,7 @@ export default function Hero() {
         {/* Left */}
         <div className="text-neutral-400 max-w-xl">
           <ScrambledText
-            className="scrambled-text-demo text-sm"
+            className="scrambled-text-demo text-sm px-20"
             radius={100}
             duration={1.2}
             speed={0.5}
@@ -48,7 +48,7 @@ export default function Hero() {
         {/* Right */}
         <div className="text-neutral-400 max-w-xl ml-auto text-right">
           <ScrambledText
-            className="scrambled-text-demo text-sm"
+            className="scrambled-text-demo text-sm px-20"
             radius={100}
             duration={1.2}
             speed={0.5}

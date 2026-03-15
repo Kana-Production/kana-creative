@@ -20,7 +20,7 @@ export default function Header() {
       className={`fixed top-0 w-full z-50 px-10 py-4 flex justify-between items-center transition-all duration-500
       ${
         scrolled
-          ? "backdrop-blur-xl bg-black/40 shadow-lg"
+          ? "backdrop-blur-xl  shadow-lg"
           : "bg-transparent"
       }`}
     >
