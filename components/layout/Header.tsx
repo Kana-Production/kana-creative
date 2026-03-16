@@ -17,12 +17,12 @@ export default function Header() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 px-10 py-4 flex justify-between items-center transition-all duration-500
-      ${
-        scrolled
-          ? "backdrop-blur-xl  shadow-lg"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 max-w-7xl mx-auto px-10 py-4 flex justify-between items-center transition-all duration-500 border border-white/10
+  ${
+    scrolled
+      ? "max-w-7xl mx-auto mt-4 backdrop-blur-xl bg-white/10 shadow-lg rounded-full border border-white"
+      : "w-full bg-transparent"
+  }`}
     >
       <h1 className="font-bold text-lg">Kana Creative</h1>
       <div className="hideen md:flex gap-6 text-sm">
@@ -40,5 +40,5 @@ export default function Header() {
         </a>
       </div>
     </nav>
-  )
+  );
 }
