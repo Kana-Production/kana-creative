@@ -21,9 +21,9 @@ export default function Services() {
         />
       </div>
 
-      <div className="relative z-20 max-w-7xl mx-auto px-6 md:px-10 lg:px-20">
+      <div className="relative z-20 px-10 md:px-20 lg:px-30">
         <div className="mb-16 max-w-xl">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-white">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-neutral-600">
             What we create
           </h2>
 

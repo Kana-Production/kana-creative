@@ -19,10 +19,10 @@ export default function ServiceCard({ service }: any) {
           </div>
 
           <div className="flex gap-2 py-2">
-            <span className="px-4 py-1.5 bg-white/5 border border-neutral-500/30 rounded-xl text-[10px] text-neutral-500 uppercase tracking-tighter">
+            <span className="px-4 py-1.5 bg-white/80 border border-neutral-500/30 rounded-xl text-[10px] text-neutral-500 uppercase tracking-tighter">
               Premium
             </span>
-            <span className="px-4 py-1.5 bg-white/5 border border-neutral-500/30 rounded-xl text-[10px] text-neutral-500 uppercase tracking-tighter">
+            <span className="px-4 py-1.5 bg-white/80 border border-neutral-500/30 rounded-xl text-[10px] text-neutral-500 uppercase tracking-tighter">
               Custom
             </span>
           </div>
